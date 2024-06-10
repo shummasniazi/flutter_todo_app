@@ -1,16 +1,16 @@
-# todo
 
-A new Flutter project.
+Summary
+In this session, I developed a comprehensive Flutter task management application with user authentication and task management functionalities. Here are the key highlights of the application:
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User Authentication: Implemented secure user authentication using the DummyJSON API.
+Task Management: Enabled users to view, add, edit, and delete tasks with proper CRUD operations.
+Pagination: Efficiently handled a large number of tasks using pagination.
+State Management: Utilized the BLoC pattern to manage the state efficiently across the app.
+Local Storage: Ensured persistent data storage using Shared Preferences.
+Unit Tests: Added comprehensive unit tests to cover critical functionalities, ensuring robustness.
+Responsive Design: Incorporated flutter_screenutil to make the UI responsive across different screen sizes.
+Code Highlights
+BLoC Setup: Created separate BLoC classes for authentication and task management, ensuring a modular architecture.
+Repository Pattern: Implemented a repository pattern to handle data operations, including network calls using Dio and Retrofit.
+Mocking for Testing: Generated mock classes using mockito for testing purposes.
+Responsive UI: Utilized flutter_screenutil for responsive design, making the app adaptable to various screen sizes.
